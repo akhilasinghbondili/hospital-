@@ -28,7 +28,7 @@ mongoose.connection.on('error', (err) => console.error('MongoDB connection error
 // API Routes
 app.use('/api/confirmations', confirmationRoutes);
 
-// app.use('/api/patients', patientRoutes);
+ app.use('/api/patients', patientRoutes);
 // app.use('/api/confirmations', confirmationRoutes);
 // app.use('/api/dates', dateRoutes);
 // app.use('/api/doctors', doctorRoutes);
